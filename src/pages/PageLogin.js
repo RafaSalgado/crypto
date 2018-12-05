@@ -149,8 +149,6 @@ class Formulario extends Component {
       </form>
     );
   }
-}
-
 class Login extends Component {
   render() {
     if (this.props.isAuthenticated) {
